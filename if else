@@ -15,7 +15,7 @@ int main()
     {
         printf("青铜玩家");
     }
-    else
+    else//最后一个else后面不写东西，第一个if中间全都是else if最后一个else。
     {
         printf("普通玩家");
     }
