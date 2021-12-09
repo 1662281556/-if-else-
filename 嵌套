@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    int sale = 120; //销售业绩为120万
+    int year = 2; //刚刚进入公司1年
+    //完善代码
+    if (year >= 2)
+    {
+        if (sale >= 100)
+        {
+            printf("huo jiang");
+        }
+        else
+        {
+            printf("bu huo jiang");
+        }
+    }
+    else
+    {
+        printf("bu huo jiang");
+    }
+    return 0;
+}//if嵌套语句：在一个if里面写if else来分
